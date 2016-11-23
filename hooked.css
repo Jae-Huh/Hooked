@@ -1,0 +1,190 @@
+* {
+  font-family: Helvetica;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e2e8e4;
+}
+
+#header {
+  width: 100%;
+  height: 60px;
+  background-color: #6eb5c0;
+}
+
+h1 {
+  color: #ffccbb;
+  font-size: 38px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+.nav {
+  display: inline-block;
+  float: right;
+  margin-top: 0px;
+}
+
+li {
+  text-align: center;
+  color: #ffffff;
+  list-style: none;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: #006c84;
+  cursor: pointer;
+}
+
+.current {
+  background-color: #006c84;
+}
+
+/* page content below */
+
+.main {
+  width: 100%;
+  height: 400px;
+  background-image: url(natural.jpg);
+  background-size: cover;
+}
+
+.main h1 {
+  color: #ffffff;
+  font-size: 50px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.main h1 span {
+  font-size: 35px;
+  color: #ffccbb;
+}
+
+.section .container {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+
+.section {
+  text-align: center;
+  color: #006c84;
+  padding: 30px 0;
+  height: 260px;
+}
+
+.showbox {
+  float: left;
+  width: 300px;
+  height: 160px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+p {
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 75%
+  }
+  .showbox {
+    width: 70%;
+    margin: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* -----------------------about----------------------- */
+
+.about {
+  width: 75%;
+  height: 430px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin: auto;
+  text-align: left;
+  margin-top: 90px;
+  padding: 50px;
+  border: 2.5px dashed #ffb9a2;
+  box-shadow: 0 0 0 6px #ffffff, 0 0 0 12px #ffffff;
+}
+
+.hello {
+  color: #006c84;
+  font-size: 2.7em;
+  padding: 0 50px;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+.about p {
+  font-size: 1.1em;
+  padding: 0 50px;
+}
+
+.about p span {
+  color: #006c84;
+  font-size: 1.15em;
+  font-style: italic;
+}
+
+
+
+
+/* -----------------------products----------------------- */
+
+
+
+/* -----------------------contact----------------------- */
+.contact {
+  width: 600px;
+  height: 600px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  border: 2.5px dashed #ffb9a2;
+  box-shadow: 0 0 0 6px #ffffff, 0 0 0 12px #ffffff;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.contact .container {
+  text-align: center;
+  padding-top: 130px;
+  margin: auto;
+}
+
+.contact .sayhello {
+  color: #006c84;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+  font-size: 3em;
+
+}
+
+.contact p {
+  font-size: 1.1em;
+  line-height: 40px;
+}
+
+.contact h3 {
+  line-height: 60px;
+  color: #006c84;
+  font-size: 1.2em;
+}
